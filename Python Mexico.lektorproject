@@ -1,0 +1,5 @@
+[project]
+name = Python Mexico
+
+[servers.ghpages]
+target = ghpages+https://PythonMexico/pythonmexico.github.io?cname=pythonmexico.org

@@ -1,0 +1,12 @@
+title: Bienvenido a Python México
+---
+body:
+
+Este es el sitio de la comunidad Python México.
+
+Si estás interesado en participar puedes suscribirte a la [lista de correo](https://mail.python.org/mailman/listinfo/python-mx) o charlar con nosotros en el canal de IRC [#pythonmx](irc://irc.freenode.net/pythonmx) en freenode.
+
+<p>
+   <a class="twitter-timeline"  href="https://twitter.com/pythonmexico" data-widget-id="679617920851259392">Tweets por el @pythonmexico.</a>
+   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>        
