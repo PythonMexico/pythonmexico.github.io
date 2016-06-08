@@ -178,7 +178,7 @@ h4.list-group-item-heading {
  */
 
 #logo {
-	background-image: url('/static/img/logo-header-textless.png')
+	background-image: url('/static/img/logo-header-textless.png');
 	background-repeat: no-repeat;
 	background-size: 88px;
 	background-position: 10px;
