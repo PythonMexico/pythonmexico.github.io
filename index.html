@@ -24,14 +24,21 @@
         <script src="/static/jquery/1.11.0/jquery.min.js"></script>
         <script src="/static/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="/static/bootstrap/3.1.1/js/bootstrap-growl.min.js"></script>
+
+		<!-- Materialize CSS -->
+        <script src="/static/css/materialize.min.css"></script>
+        <script src="/static/js/materialize.min.js"></script>
+
         <script src="/static/js/web.js"></script>
+		<script src="/static/js/brython.js"></script>
+		<script id="pyscript" type="text/python" src="/static/js/feeds.py"></script>
         <link rel="icon" href="/static/img/icons/pyar.ico" type="image/ico">
 
         
 
 
     </head>
-    <body>
+    <body onLoad="brython()">
 
         
 
@@ -49,10 +56,6 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="/" class="navbar-brand">Python Mexico</a>
-                    <div class="loginreg">
-                      
-                      <a href="/accounts/login/?next=/">Ingresá</a> o <a href="/accounts/signup/?next=/">Registrate</a>
-                      
                     </div>
                 </div>
             </div>
@@ -250,15 +253,16 @@
           <!-- SeachBox -->
 
           
+		<form id="search-form" class="input-group" role="form" action="/buscador/" method="get">
+		  <input type="search" name="buscar" class="form-control input-lg" placeholder="Buscar..." value="" required >
+		  <span class="input-group-btn">
+			  <button class="btn btn-default btn-lg" type="submit">
+				  <span class="glyphicon glyphicon-search"></span>
+			  </button>
+		  </span>
+		</form>
 
-<form id="search-form" class="input-group" role="form" action="/buscador/" method="get">
-  <input type="search" name="buscar" class="form-control input-lg" placeholder="Buscar..." value="" required >
-  <span class="input-group-btn">
-      <button class="btn btn-default btn-lg" type="submit">
-          <span class="glyphicon glyphicon-search"></span>
-      </button>
-  </span>
-</form>
+		<!-- SearchBox End -->
 
           <section class="list-group">
             <header class="list-group-item">
@@ -270,7 +274,7 @@
                   <input class="form-control" name="email" placeholder="Email">
                   <input type="hidden" name="language" value="es">
                 </div>
-                <input class="btn btn-primary" type="submit" value="Inscribirme a PythonMX!">
+				<a class="waves-effect waves-light btn"><i class="material-icons left">done</i>Inscribirme a PythonMX!</a>
               </form>
             </article>
           </section>
