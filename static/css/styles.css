@@ -177,6 +177,15 @@ h4.list-group-item-heading {
  * Navbar
  */
 
+#logo {
+	background-image: url('/static/img/logo-header-textless.png')
+	background-repeat: no-repeat;
+	background-size: 88px;
+	background-position: 10px;
+	padding-left: 3em;
+}
+
+
 .navbar-header div.loginreg {
 	text-align: center;
 	margin-top: 38px;
@@ -188,7 +197,6 @@ h4.list-group-item-heading {
 .banner p {
     font-size: 15px;
     text-shadow: 0px 0px 4px #444;
-    vertical-align: bottom;
 }
 .banner h1 {
     text-shadow: 0px 0px 4px #777;
