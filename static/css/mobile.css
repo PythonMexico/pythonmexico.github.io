@@ -3,4 +3,5 @@
 @media screen  and (device-width: 640px) {
 .gitter-chat-embed-action-bar {display: none; }
 .gitter-open-chat-embed {display: none; }
+.gitter-open-chat-button {display: none; }
 } 
