@@ -593,3 +593,14 @@ a.white:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.profile_image {
+	width: 150px;
+	height: auto;	
+}
+.name {
+	font-weight: bolder;
+}
+.description {
+	font-style: italic;
+}
