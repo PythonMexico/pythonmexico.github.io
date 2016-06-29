@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+             Python Mexico
+        </title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/animate.css">
+        <link rel="stylesheet" href="/static/css/styles.css">
+
+         
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="/static/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/static/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="/static/bootstrap/3.1.1/js/bootstrap-growl.min.js"></script>
+
+		<!-- Materialize CSS -->
+        <link rel="stylesheet" href="/static/css/materialize.min.css" />
+        <link rel="stylesheet" href="/static/css/mobile.css" />
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="/static/js/materialize.min.js"></script>
+
+        <script src="/static/js/web.js"></script>
+		<script src="/static/js/brython.js"></script>
+		<script id="pyscript" type="text/python" src="/static/js/feeds.py"></script>
+        <link rel="icon" href="/static/img/icons/pyar.ico" type="image/ico">
+
+       <style type="text/css">
+			.gitter-chat-embed-action-bar { 
+				margin-top: 80px; 
+				background: transparent; 
+				margin-right: 50px; 
+			}	
+		</style> 
+
+
+    </head>
+    <body onLoad="brython()">
+
+        
+
+
+
+<header id="header" class="navbar navbar-static-top" role="banner">
+		<nav class="indigo accent-4">
+		  <div class="nav-wrapper ">
+			<a href="/" id="logo" class="brand-logo left">Python Mexico</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li>
+					<a href="/"><span class="inicio"></span>Inicio</a>
+				</li>
+				<li>
+					<a href="/nosotros/"><span class="quienes_somos"></span>Nosotros</a>
+				</li>
+				<li>
+					<a href="/lista/"><span class="navbar_lista_de_correo"></span>Lista</a>
+				</li>
+				<li>
+					<a href="/noticias/"><span class="news"></span>Noticias</a>
+				</li>
+				<li>
+					<a href="irc://irc.freenode.net/pythonmx"><span class="irc"></span>Chat</a>
+				</li>
+				<li>
+					<a href="/eventos/"><span class="eventos"></span>Eventos</a>
+				</li>
+				<li>
+					<a href="/trabajo/"><span class="jobs"></span>Trabajos</a>
+				</li>
+			</ul>
+		   </div>
+		</nav>
+</header>
+
+
+<main id="main" role="main">
+
+<!-- floating button -->
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px">
+	<a class="btn-floating btn-large blue modal-trigger" href="#sub">
+		<i class="large material-icons">email</i>
+	</a>
+</div>
+  
+
+<div class="row">
+
+  <div class="col-md-8">
+	
+
+	<section>
+		<h1 class="headertitle">Desarrolladores</h1>
+        <div class="row index-content">
+            <article class="col s12 m4">
+				<img src="" class="profile_image" />
+				<p class="name">Alexandro Colorado</p>
+				<p class="description">Desarrollador de python con 10 a&ntilde;os de experiencia.</p>
+			</article>
+            <article class="col s12 m4">
+				<p class="name">Alexandro Colorado</p>
+				<p class="description">Desarrollador de python con 10 a&ntilde;os de experiencia.</p>
+
+			</article>
+
+            <article class="col s12 m4">
+				<p class="name">Alexandro Colorado</p>
+				<p class="description">Desarrollador de python con 10 a&ntilde;os de experiencia.</p>
+
+			</article>
+		</div>
+		<div class="row">
+		<article class="col s12 m4">
+
+			</article>
+            <article class="col s12 m4">
+
+			</article>
+
+            <article class="col s12 m4">
+
+			</article>
+		</div>
+	</section>
+	</div>
+</div>
+
+     <!--/container-->
+
+	 <!-- Modal dialog -->
+	 <div id="sub" class="modal">
+		 <div class="modal-content">
+			 <h4>Inscribete</h4>
+			 
+			 <!-- Subscription form -->
+		 <form class="">
+			 <i class="material-icons prefix">email</i>
+			 <input id="icon_prefix" type="email" class="validate" />
+			 <label for="icon_prefix">Inserta tu correo</label>
+			 <div class="row">
+			 <div class="col s6 offset-s8">
+			 <a href="#!" class="modal-action modal-close waves-effect waves-green btn">Enviar</a>
+			 <a href="#!" class="modal-action modal-close waves-effect pink accent-2 btn">Cerrar</a>
+			 </div>
+			 </div>
+		 </form>
+
+		 </div>
+	 </div>
+	 <!-- Modal dialog CLOSE -->
+
+</main>
+
+            
+        
+
+        <footer id="footer" class="container">
+    <div class="row">
+        <div class="col-xs-6">
+            <ul class="list-inline left">
+                <li class="pyar"><a href="/">Comunidad Python Mexico</a><br><a href="mailto:python-mx@python.org">python-mx@python.org</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-6">
+            <ul class="list-inline right">
+                <li class="usla"><a href="http://github.org/">Sitio hosteado por Github</li>
+                <li class="python"><a href="https://github.com/PythonMexico/pythonmexico.github.io">Python<br>Powered</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+        <script type="text/javascript">
+            function csrfSafeMethod(method) {
+            // these HTTP methods do not require CSRF protection
+                return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+            }
+            $.ajaxSetup({
+                beforeSend: function(xhr, settings) {
+                    if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", 'oZ0FX8Bn7lEV84BfEJUZn6gDTkQkiDRt');
+                    }
+                }
+            });
+
+       // initialize modal javascript
+			$(document).ready(function() {
+				$('.modal-trigger').leanModal();
+			});
+        </script>
+		<script>
+		  ((window.gitter = {}).chat = {}).options = {
+			room: 'PythonMexico/pythonmexico.github.io'
+		  };
+		</script>
+		<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+    </body>
+</html>
+
