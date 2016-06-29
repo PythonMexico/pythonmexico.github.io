@@ -587,3 +587,9 @@ a.white:hover {
 #sub {
 	height: 275px;
 }
+
+.headertitle {
+	font-size: 1.5em;
+	margin-right: auto;
+	margin-left: auto;
+}
